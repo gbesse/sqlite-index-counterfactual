@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Comparer des index sur une vraie requête et ses étapes de VM', 'en': 'Compare indexes on an actual query and its VM steps', 'es': 'Comparar índices en una consulta real y sus pasos de VM'}

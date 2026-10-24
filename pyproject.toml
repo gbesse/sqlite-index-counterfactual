@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlite-index-counterfactual"
+version = "0.1.0a1"
+description = "FR: Comparer des index sur une vraie requête et ses étapes de VM | EN: Compare indexes on an actual query and its VM steps | ES: Comparar índices en una consulta real y sus pasos de VM"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+sqlite-index-counterfactual = "sqlite_index_counterfactual.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sqlite_index_counterfactual*"]
